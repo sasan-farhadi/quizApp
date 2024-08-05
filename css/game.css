@@ -1,0 +1,150 @@
+#loader {
+    width: 100px;
+    height: 100px;
+    border: 7px solid #6757d9;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    animation: rotation 1.5s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+        font-size: 0;
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#container {
+    display: none;
+    width: 700px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+.header p {
+    color: #6757d9;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.header span {
+    display: inline-block;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #6757d9;
+    border-radius: 4px;
+}
+
+
+#question-box {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    background-color: #6757d9;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 60px 0 30px;
+    height: 100px;
+}
+
+.answer-text {
+    background-color: #fff;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: left;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: all 0.2s ease-in;
+}
+
+.answer-text:hover {
+    background-color: #eeedfb;
+    border: 2px solid #fff;
+}
+
+#next-button,
+#finish-button {
+    color: #6757d9;
+    font-size: 1rem;
+    background-color: #eeedfb;
+    border: 2px solid #6757d9;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 20px 20px 0 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+#next-button:hover,
+#finish-button:hover {
+    background-color: #6757d9;
+    color: #fff;
+}
+
+.correct {
+    background-color: #5bd7bc;
+}
+
+.incorrect {
+    background-color: #fe6681;
+}
+
+.correct:hover {
+    background-color: #5bd7bc;
+}
+
+.incorrect:hover {
+    background-color: #fe6681;
+}
+
+#error {
+    display: none;
+}
+
+
+a {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    color: #6757d9;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+    display: none;
+}
+
+a:hover {
+    background-color: #6757d9;
+    color: #fff;
+}

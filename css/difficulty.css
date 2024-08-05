@@ -1,0 +1,43 @@
+h3 {
+    font-size: 2.2rem;
+    color: #6757d9;
+    margin-bottom: 70px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #6757d9;
+    cursor: pointer;
+    transition: all 0.2 ease-in;
+}
+
+button:hover {
+    background-color: #6757d9;
+    color: #fff;
+}
+
+a {
+    color: #6757d9;
+    font-size: 1rem;
+    background-color: #eeedfb;
+    border: 2px solid #6757d9;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 20px 20px 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+a:hover {
+    background-color: #6757d9;
+    color: #fff;
+}
